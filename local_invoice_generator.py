@@ -28,7 +28,7 @@ HOLIDAYS = [
 # Make a constant salary based on 168 hours and if it's different than 168h calculate proper sallary for the month
 # In short: Expect amount of hours as an argument
 class LocalInvoiceGenerator:
-    MONTHLY_SALARY = 15000
+    MONTHLY_SALARY = 1000
     HOURS_IN_MONTH = 168
     TAX_PERCENT = 23
 
