@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pytest-watch
+python-dateutil
+requests
+python-dotenv
+openpyxl
