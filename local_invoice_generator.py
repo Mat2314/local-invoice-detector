@@ -180,6 +180,5 @@ python3 main.py --auto # Create an invoice with automatically calculated hours f
         hours = self.read_amount_of_hours()
         amount = self._return_salary_based_on_hours(hours)
         invoice_data = self._generate_json_payload_for_api(amount)
-        print(invoice_data)
-        # response = self.create_new_invoice(invoice_data)
-        # print(response)
+        response = self.create_new_invoice(invoice_data)
+        print(response)
